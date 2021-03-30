@@ -1,10 +1,185 @@
 
+.box{
+	width: 90%;
+	margin: 0 auto;
+}
 
 .device_top{
 	@extend .flex_between;
+	@extend .box;
+	padding: 60upx 0;
 	image{
 		width: 40upx;
 		height: 40upx;
+	}
+	.ve1{
+		font-size: 32upx;
+		color: #000000;
+		font-weight: bold;
+	}
+}
+
+
+
+.device_1{
+	@extend .box;
+	@extend .flex_between;
+	align-items: flex-start;
+	.left{
+		float: left;
+		.ve1{
+			color: #000000;
+			font-size: 60upx;
+			font-style: italic;
+			font-weight: bold;
+		}
+		.ve2{
+			@extend .flex_start;
+			margin-top: 32upx;
+			// 电池
+			.battery {
+				width: 52upx;
+				height: 21upx;
+				color: midnightblue;
+				border: 1px solid #ccc;
+				// border-radius: 0.2em;
+				font-size: 20upx;
+				position: relative;
+				background-image: linear-gradient(to right, #71CB4D, #71CB4D);
+				background-repeat: no-repeat;
+				background-position: 0.3upx 50%;
+			}
+			.battery::after {
+				content: '';
+				position: absolute;
+				width: 6upx;
+				height: 10upx;
+				background-color: #ccc;
+				top: 5.9upx;
+				right: -9upx;
+				border-radius: 0 0.2em 0.2em 0;
+			}
+			.te1{
+				padding-left: 20upx;
+				font-size: 32upx;
+				color: #555555;
+				font-family: "MediumItalic";
+			}
+		}
+		.ve3{
+			image{
+				width: 120upx;
+				height: 120upx;
+				margin-top: 30upx;
+				display: block;
+			}
+		}
+	}
+	.right{
+		width:80%;
+		image{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+
+.device_2{
+	width: 100%;
+	margin-top: 50upx;
+	padding:40upx 0;
+	background: #FFFFFF;
+	border-top-left-radius: 40upx;
+	border-top-right-radius: 40upx;
+	.ve_top{
+		@extend .box;
+		@extend .flex_between;
+		height: 160upx;
+		position: relative;
+		.left{
+			width: 70%;
+			background: #11BCAC;
+			height: 100%;
+			position: relative;
+			border-top-left-radius: 12upx;
+			border-bottom-left-radius: 12upx;
+			text{
+				display: block;
+				font-size: 20upx;
+				color: #FFFFFF;
+				position: absolute;
+				left: 20upx;
+			}
+			.te1{
+				top: 20upx;
+			}
+			.te2{
+				bottom: 20upx;
+			}
+		}
+		.left::before{
+            position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			border-right: 60upx solid #F3F4F6;
+			border-bottom: 160upx solid #11BCAC;
+			content: "";
+		}
+		.right{
+			height: 100%;
+			width: 30%;
+			background: #F3F4F6;
+			border-top-right-radius: 12upx;
+			border-bottom-right-radius: 12upx;
+		}
+		.img1{
+			position: absolute;
+			width: 46upx;
+			height: 60upx;
+			right:60upx;
+			top: 50%;
+			margin-top: -30upx;
+		}
+	}
+	
+	
+	.ve_list{
+		margin-top: 32upx;
+		width: 92%;
+		margin: 0 auto;
+		@extend .flex_between;
+		flex-flow: row wrap;
+		.list{
+			width: 332upx;
+			height: 164upx;
+			position: relative;
+			margin-top: 30upx;
+			image{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.cul_1{
+				position: relative;
+				top: 30upx;
+				left: 35upx;
+				.ve1{
+					color: #778089;
+					font-size: 24upx;
+					font-weight: bold;
+				}
+				.ve2{
+					color: #000000;
+					font-size: 28upx;
+					padding-top: 14upx;
+				}
+			}
+		}
 	}
 }
 
@@ -17,37 +192,6 @@
 
 
 
-
-
-
-
-
-// 电池
-.battery {
-	width: 52upx;
-	height: 21upx;
-	color: midnightblue;
-	border: 1px solid #ccc;
-	// border-radius: 0.2em;
-	font-size: 20upx;
-	position: relative;
-	background-image: linear-gradient(to right, #71CB4D, #71CB4D);
-	background-repeat: no-repeat;
-	background-size: 50% 80%;
-	background-position: 0.3upx 50%;
-}
-
-
-.battery::after {
-	content: '';
-	position: absolute;
-	width: 6upx;
-	height: 10upx;
-	background-color: #ccc;
-	top: 5.9upx;
-	right: -9upx;
-	border-radius: 0 0.2em 0.2em 0;
-}
 
 
 
