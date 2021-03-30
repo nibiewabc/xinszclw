@@ -9,6 +9,7 @@
 		</view>
 		
 
+
 		<view class="device_1">
 			<view class="left">
 				<view class="ve1">81KM</view>
