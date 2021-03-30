@@ -1,0 +1,36 @@
+
+.flex{
+	display: flex;
+}
+  
+.flex_start{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+ 
+.flex_end{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+  
+.flex_around{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flex_between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex_center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	

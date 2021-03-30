@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/start/start",
+			"style": {
+				"navigationBarTitleText": "启动",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/start/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/start/phone_reg/phone_reg",
+			"style": {
+				"navigationBarTitleText": "手机注册"
+			}
+		}
+	    ,{
+            "path" : "pages/start/email_reg/email_reg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "邮箱注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Bluetooth_binding/Bluetooth_binding",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "蓝牙连接",
+                "enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Bluetooth_search/Bluetooth_search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "蓝牙搜索",
+                "enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+            }
+        }
+        ,{
+            "path" : "pages/device/device",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的设备",
+                "enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#E6EAED",
+		"backgroundColor": "#E6EAED"
+	}
+}

@@ -1,0 +1,53 @@
+export default {
+	base: {
+		center: "个人中心",
+		index:"登陆注册",
+		reg:"注册"
+	},
+	center:{
+		deposit:'我的押金',
+		order:'我的订单',
+		join:'加盟申请',
+		feedback:'意见反馈',
+		guide:'使用指南',
+		about:'关于我们',
+		setting:'设置'
+	},
+	index:{
+		Language:'语言',
+		logIn:'登录',
+		registered:'注册',
+		phoneNumber:'手机号',
+		register_email:'注册邮箱',
+		password:'密码',
+		Account_password_login:'账号密码登录',
+		Verification_code_login:'验证码登录',
+		Verification_code:'验证码',
+		Send_the_verification_code:'发送验证码',
+		Forgot_password:'忘记密码',
+		Sign_in_with_mobile_number:'使用手机号登录',
+		Login_with_email:'使用邮箱登录'
+		},
+	reg:{
+		mob:'请输入手机号注册',
+		email:'请输入邮箱地址',
+		phone_number:'手机号',
+		Register_mob:'使用手机号注册',
+		Register_email:'使用邮箱注册',
+		Sign_in:'登录即表明同意',
+		user_agreement:'用户协议',
+		and:'及',
+		privacy_policy:'隐私政策',
+		mark:'标记',
+		necessary:'的信息是我们为您创建账户和提供服务的必要信息',
+		fill_in:'请填写必要资料',
+		Real_name:'真实姓名，售后服务用',
+		nickname:'昵称，1～16个字符',
+		Next_step:'下一步',
+		enter_password:'输入密码',
+		enterPassword:'请输入6～20位密码',
+		consistent:'请确保两次输入一致',
+		confirm_password:'确认密码',
+		carry_out:'完成'
+	}
+}

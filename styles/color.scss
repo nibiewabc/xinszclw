@@ -1,0 +1,123 @@
+
+$primary:#1989fa;
+$primaryActive:#ccc;
+
+.primary{
+	 color: $primary;
+}
+
+.green{
+	color:#67C23A;
+}
+
+.blue{
+	color:#409EFF;
+}
+
+.orange{
+	color:#ff7519;
+}
+.red{
+	color:red;
+}
+
+.warning{
+	color:#E6A23C;
+}
+
+.danger{
+	color:#F56C6C;
+}
+
+.brown{
+	color:#825349;
+}
+
+.black{
+	color:#302f2a;
+}
+
+.b-primary{
+	background-color:$primary;
+}
+
+.bd-primary{
+	border:1px solid $primary;
+}
+
+.b-green{
+	background-color:#67C23A;
+}
+
+.b-warning{
+	background-color:#E6A23C;
+}
+
+.b-orange{
+	background-color:#ff7519;
+}
+
+.b-danger{
+	background-color:#F56C6C;
+}
+
+.b-brown{
+	background-color:#825349;
+}
+
+.b-black{
+	background-color:#302f2a;
+}
+
+.cf{
+	color:#fff;
+}
+
+.c0{
+	color:#000;
+}
+
+.c3{
+	color:#333;
+}
+
+.c6{
+	color:#666;
+}
+
+.c9{
+	color:#999;
+}
+
+.bf{
+	background-color:#fff;
+}
+.b9{
+	background-color:#999;
+}
+
+.bgf5{
+	background-color:#f5f5f5;
+}
+
+.bgf8{
+	background-color:#f8f8f8;
+}
+
+.bge5{
+	background-color:#e5e5e5;
+}
+
+.tap:active {
+    background-color:#fff9f5;
+}
+
+.btn_tap:active {
+    background:$primaryActive;
+}
+.reg{
+	color:#82868D;
+}
+.colora{
+	color:#05B8A9;
+}

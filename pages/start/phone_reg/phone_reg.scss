@@ -1,0 +1,166 @@
+page{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+input{
+	font-size: 32upx;
+}
+input .uni-input-input{
+	font-size: 32upx;
+}
+
+
+.ph_rge_box{
+	width: 100%;
+	margin-top: 40upx;
+	.ph_rge1{
+		font-size: 32upx;
+		color: #82868D;
+		text{
+			color: #C5483C;
+			padding-left: 14upx;
+		}
+	}
+	.ph_rge2{
+		width: 100%;
+		margin-top: 20upx;
+		.list1{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 2upx solid $uni-border-color;
+			padding: 30upx 0;
+			.left{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.img1{
+					width: 60rpx;
+					height: 40rpx;
+				}
+				.img2{
+					width: 12rpx;
+					height: 12rpx;
+				}
+				text{
+					padding: 0 10rpx;
+				}
+			}
+			input{
+				width: 68%;
+			}
+		}
+		.list2{
+			width: 100%;
+			text-align: right;
+			font-size: 24upx;
+			color: #BE2728;
+			margin-top: 20upx;
+		}
+	}
+	
+	.ph_rge3{
+		width: 100%;
+		margin-top: 70upx;
+		text-align: center;
+		.ve1{
+			color: #5B76D4;
+			font-size: 24upx;
+		}
+		.ve2{
+			width: 100%;
+			border-radius: 42upx;
+			background: #11BCAC;
+			color: #FFFFFF;
+			font-size: 32upx;
+			height: 84upx;
+			line-height: 84upx;
+			margin-top: 30upx;
+			margin-bottom: 40upx;
+		}
+		.ve3{
+			font-size: 24upx;
+			text-align: left;
+			color: #82868D;
+			line-height: 36upx;
+			.te1{
+				color: #2D72D5;
+				padding: 0 10upx;
+			}
+			.te2{
+				color: #BE2728;
+			}
+		}
+	}
+}
+
+
+.ph_rge_yzm{
+	width: 100%;
+	margin-top: 40upx;
+	.ve1{
+		font-size: 32upx;
+		color: #82868D;
+	}
+	.item{
+		margin-top: 30upx;
+	}
+	.ve2{
+		text-align: center;
+		width: 100%;
+		border-radius: 42upx;
+		background: #11BCAC;
+		color: #FFFFFF;
+		font-size: 32upx;
+		height: 84upx;
+		line-height: 84upx;
+		margin-top: 60upx;
+		margin-bottom: 40upx;
+	}
+	.ve3{
+		width: 100%;
+		text-align: right;
+		font-size: 24upx;
+		color: #BE2728;
+		margin-top: 20upx;
+	}
+}
+
+
+.ph_rge_number{
+	width: 100%;
+	.ve1{
+		margin-top: 40upx;
+		font-size: 32upx;
+		color: #82868D;
+		text{
+			color: #C5483C;
+			padding-left: 14upx;
+		}
+	}
+	.ve2{
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		border-bottom: 2upx solid $uni-border-color;
+		padding: 30upx 0;
+		text{
+			color: #BE2728;
+			margin-right: 16upx;
+		}
+	}
+	.ve3{
+		width: 100%;
+		border-radius: 42upx;
+		background: #11BCAC;
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 32upx;
+		height: 84upx;
+		line-height: 84upx;
+		margin-top: 100upx;
+	}
+}
+

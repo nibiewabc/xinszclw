@@ -1,0 +1,59 @@
+
+.cover{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.Lang{
+	position: absolute;
+	top: 100upx;
+	right: 36upx;
+}
+.img1{
+	position: absolute;
+	top: 400upx;
+	width: 160upx;
+	height: 160upx;
+	left: 50%;
+	margin-left: -80upx;
+}
+
+
+.login{
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	bottom: 120upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text{
+		width: 220upx;
+		height: 80upx;
+		text-align: center;
+		line-height: 80upx;
+		border-radius: 12upx;
+		color: #FFFFFF;
+	}
+	.te1{
+		background: #4CE5B1;
+		border: 2upx solid #4CE5B1;
+	}
+	.te2{
+		border: 2upx solid #4CE5B1;
+		color: #4CE5B1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
