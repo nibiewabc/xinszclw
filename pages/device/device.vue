@@ -8,8 +8,7 @@
 			<image src="/static/icon13.png" class="msg"  mode="aspectFill"></image>
 		</view>
 		
-		
-		
+
 		<view class="device_1">
 			<view class="left">
 				<view class="ve1">81KM</view>
