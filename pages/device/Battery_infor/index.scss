@@ -1,0 +1,19 @@
+
+
+/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
+.qiun-charts {
+	width: 750upx;
+	height: 500upx;
+	text{
+		color: #82868D;
+		font-size: 20upx;
+		padding: 20upx 0;
+		display: block;
+		margin-left: 20upx;
+	}
+	.charts {
+		width: 750upx;
+		height: 500upx;
+	}
+}
+

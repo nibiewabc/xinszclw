@@ -77,9 +77,14 @@
 	}
 	.right{
 		width:80%;
-		image{
+		position: relative;
+		.img1{
 			width: 100%;
 			height: auto;
+		}
+		.img2{
+			top: 0;
+			position: absolute;
 		}
 	}
 }

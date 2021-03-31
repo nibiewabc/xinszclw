@@ -8,8 +8,6 @@
 			<image src="/static/icon13.png" class="msg"  mode="aspectFill"></image>
 		</view>
 		
-
-
 		<view class="device_1">
 			<view class="left">
 				<view class="ve1">81KM</view>
@@ -22,11 +20,14 @@
 					<image @click="onswitcha" :src="switcha?'/static/icon18.png':'/static/icon15.png'" mode="aspectFill" class="img2"></image>
 				</view>
 			</view>
-			<view class="right">
-                <image src="/static/icon17.png" mode="widthFix" class="img1"></image> 
+			<view class="right" @click="Puburl('mydevice/mydevice',false)">
+				<image src="/static/device1.png" mode="widthFix" class="img2" v-if="!protect"></image> 
+				<image src="/static/device2.png" mode="widthFix" class="img2" v-if="protect"></image> 
+                <image src="/static/device3.png" mode="widthFix" class="img2" v-if="switcha"></image>
+				
+				<image src="/static/icon17.png" mode="widthFix" class="img1"></image> 
 			</view>
 		</view>
-		
 		
 		<view class="device_2">
 			<view class="ve_top">
@@ -41,7 +42,7 @@
 			<view class="ve_list">
 				<view class="list">
 					<image  src="/static/icon23.png" mode="aspectFill"></image>
-					<view class="cul_1">
+					<view class="cul_1" @click="Puburl('Battery_infor/Battery_infor',false)">
 						<view class="ve1">电池信息</view>
 						<view class="ve2">{{battery}}<text>%</text></view>
 					</view>
@@ -64,7 +65,7 @@
 						<view class="ve1">故障检测</view>
 					</view>
 				</view>
-				<view class="list">
+				<view class="list" @click="Puburl('Parameter_setting/Parameter_setting',false)">
 					<image  src="/static/icon21.png" mode="aspectFill"></image>
 					<view class="cul_1">
 						<view class="ve1">参数设置</view>

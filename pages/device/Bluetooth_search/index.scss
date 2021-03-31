@@ -61,7 +61,7 @@
 .search_2{
 	width: 100%;
 	position: absolute;
-	top: 500upx;
+	top: 35%;
 	.list1{
 		text-align: center;
 		.img1{
@@ -116,7 +116,7 @@
 	.list2{
 		width: 100%;
 		text-align: center;
-		margin-top: 400upx;
+		margin-top: 300upx;
 		.ve1{
 			color: #000000;
 			font-size: 28upx;
@@ -133,7 +133,7 @@
 .search_3{
 	width: 100%;
 	position: absolute;
-	top: 500upx;
+	top: 35%;
 	.list1{
 		text-align: center;
 		.img1{
@@ -144,9 +144,9 @@
 		}
 		.children-box{
 			position: absolute;
-			top: -140upx;
+			top: -130upx;
 			left: 50%;
-			margin-left: -250upx;
+			margin-left: -240upx;
 			// 搜索失败
 			@keyframes action {
 				0% {
@@ -179,7 +179,7 @@
 	.list2{
 		width: 100%;
 		text-align: center;
-		margin-top: 400upx;
+		margin-top: 300upx;
 		.ve1{
 			color: #000000;
 			font-size: 28upx;

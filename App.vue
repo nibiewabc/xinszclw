@@ -41,9 +41,14 @@
 </script>
 
 <style lang="scss">
+	@import './common/uni.scss';
+	@import "uview-ui/index.scss";
 	@import './styles/base.scss';
 	@import './styles/color.scss';
 	@import './styles/flex.scss';
+	@import './styles/anim.scss';
+	@import './styles/font-face.scss';
+	
 	
 	/*每个页面公共css */
 	page {
@@ -52,6 +57,21 @@
 		padding: 0;
 		margin: 0;
 	}
+	
+	// 三角符号
+	.sanjiaofuhao:before{
+		display:block;
+		content:'';
+		width:0;
+		border-width:16upx 16upx 16upx 16upx;
+		border-style:solid; 
+		border-color:transparent #FFFFFF transparent transparent; 
+		position:absolute; 
+		left:-30upx;
+		top:16upx;
+		z-index: 1;
+	}
+	
 	
 	/* 水平分割线 */
 	.hr {

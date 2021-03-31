@@ -1,4 +1,11 @@
 {
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/start/start",
@@ -65,6 +72,69 @@
 				"h5": {
 					"titleNView": false
 				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/mydevice/mydevice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的设备",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Parameter_setting/Parameter_setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "参数设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Parameter_setting/lighting/lighting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "灯光设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Parameter_setting/cruise/cruise",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡航设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Parameter_setting/speed/speed",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "速度单位设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Parameter_setting/startup/startup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "启动设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/device/Battery_infor/Battery_infor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电池信息",
+                "enablePullDownRefresh": false
             }
             
         }

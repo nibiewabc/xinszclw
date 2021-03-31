@@ -2,9 +2,10 @@ import Vue from 'vue'
 import App from './App'
 import store from './store'
 import i18n from './i18n'
+import uView from 'uview-ui';
 
 Vue.config.productionTip = false
-
+Vue.use(uView)
 
 //vuex挂载
 Vue.prototype.$store = store       

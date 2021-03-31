@@ -1,0 +1,45 @@
+
+
+
+.ve_list{
+	margin-top: 32upx;
+	width: 94%;
+	margin: 0 auto;
+	@extend .flex_between;
+	flex-flow: row wrap;
+	.list{
+		width: 348upx;
+		height: 184upx;
+		position: relative;
+		margin-top: 30upx;
+		image{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.cul_1{
+			position: relative;
+			top: 30upx;
+			left: 35upx;
+			.ve1{
+				color: #778089;
+				font-size: 24upx;
+				font-weight: bold;
+			}
+			.ve2{
+				color: #000000;
+				font-size: 28upx;
+				padding-top: 14upx;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
